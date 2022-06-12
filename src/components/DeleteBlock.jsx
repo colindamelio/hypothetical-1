@@ -1,5 +1,5 @@
 export default function DeleteBlock() {
   return (
-    <h1>Delete Block</h1>
+    <h3>Delete Block</h3>
   )
 }

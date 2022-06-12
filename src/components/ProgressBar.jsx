@@ -1,5 +1,9 @@
-export default function ProgressBar() {
+export default function ProgressBar({progress}) {
   return (
-    <h1>Progress...</h1>
+		<div className="progress-bar-container">
+			<div className="progress-bar">
+				<div className="progress-indicator" style={{width: progress + '%'}}></div>
+			</div>
+		</div>
   )
 }

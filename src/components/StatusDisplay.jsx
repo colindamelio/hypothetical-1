@@ -1,5 +1,8 @@
-export default function StatusDisplay() {
+export default function StatusDisplay( {status}) {
+
   return (
-    <h1>Status Display</h1>
+    <div>
+			{status}
+		</div>
   )
 }
